@@ -1,24 +1,15 @@
-# Liebling
+# Custom ShotgunHour Blog Theme
 
-Liebling is a beautiful and clean Ghost theme that is easy and comfortable to use. **It's free** and you can use it for any kind of content you might have. Now with dark mode 🌓!
+## Theme development
 
-If you find this theme useful, please consider to make a donation to support its development! 🙏🏼
+Please take a look to this page to see how it works: https://github.com/eddiesigner/liebling/wiki/Theme-development-with-Docker
 
-<a href="https://www.buymeacoffee.com/eddiesigner" target="_blank"><img src="https://res.cloudinary.com/edev/image/upload/v1583011476/button_y8hgt8.png" alt="Donate" style="width: 250px !important; height: 60px !important;" width="250" height="60"></a>
+Then, run the follwing commands to clear cache :
 
-## Preview
-
-You can see a live demo here: [https://liebling.eduardogomez.io](https://liebling.eduardogomez.io)
-
-![](https://res.cloudinary.com/edev/image/upload/v1583792928/liebling/liebling-promo-desktop.jpg)
-<br><br>
-![](https://res.cloudinary.com/edev/image/upload/v1570370297/liebling/liebling-promo-mobile.jpg)
-
-## Download
-
-To get the latest version please head over the [releases page](https://github.com/eddiesigner/liebling/releases) and download the file `liebling.zip` of the latest release.
-
-**IMPORTANT: From now on, this theme is only compatible with Ghost 3+**
+```sh
+heroku plugins:install heroku-repo
+heroku repo:purge_cache -a appname
+```
 
 ## Features
 
@@ -64,33 +55,6 @@ To get the latest version please head over the [releases page](https://github.co
 * Reading progress indicator
 * RTL language support
 
-## Localization
-
-* English
-* Spanish
-* German by [D3473R](https://github.com/D3473R)
-* Informal german by [D3473R](https://github.com/D3473R)
-* Bulgarian by [clappingmonkey](https://github.com/clappingmonkey)
-* Vietnamese by [hiensarahly](https://github.com/hiensarahly)
-* Italian by [vignini](https://github.com/vignini)
-* French by [v1nc3nt-fr](https://github.com/v1nc3nt-fr)
-* Informal french by [v1nc3nt-fr](https://github.com/v1nc3nt-fr)
-* Portuguese by [ivomota](https://github.com/ivomota)
-* Arabic by [allamiro](https://github.com/allamiro)
-* Polish by [otlet](https://github.com/otlet)
-* Brazilian portuguese by [pedrinholula](https://github.com/pedrinholula)
-* Russian by [stereohorse](https://github.com/stereohorse)
-* Kyrgyz by [januchaos](https://github.com/januchaos)
-* Hebrew by [cohen604](https://github.com/cohen604)
-* Turkish by [mskoroglu](https://github.com/mskoroglu)
-* Romanian by [dsecareanu](https://github.com/dsecareanu)
-* Chinese Simplified by [IvyB](https://github.com/IvyB)
-* Indonesian by [iqbalbinsb](https://github.com/iqbalbinsb)
-* Lithuanian by [pintom](https://github.com/pintom)
-* Dutch by [Qballjos](https://github.com/Qballjos)
-* Traditional Chinese by [weixiang](https://github.com/weixiang)
-* Persian (Farsi) by [Aminoiz](https://github.com/Aminoiz)
-
 ## Tests performed
 
 * W3C Markup Validation: [Correct validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fliebling.eduardogomez.io%2F)
@@ -99,30 +63,11 @@ To get the latest version please head over the [releases page](https://github.co
 * PageSpeed Insights: **94/100** (mobile) **99/100** (desktop)
 * Pingdom Performance Grade: **A 91**
 
-## Theme development
 
-Thanks to [D3473R](https://github.com/D3473R) 💪🏼 for creating a development environment with Docker. From now on you can work on this theme without installing a Ghost instance on your local machine. With two commands you have an instant development setup and you can build the theme for production.
+## Preview
 
-Please take a look to this page to see how it works: https://github.com/eddiesigner/liebling/wiki/Theme-development-with-Docker
+You can see a live demo here: [https://liebling.eduardogomez.io](https://liebling.eduardogomez.io)
 
-## Help and Support
-
-To know how to enable the search, comments, subscribers and more, please head to the [Wiki](https://github.com/eddiesigner/liebling/wiki).
-
-If you have any questions or troubles with this product, please feel free to open an issue [here](https://github.com/eddiesigner/liebling/issues).
-
-## Contributing
-
-Contributions are very welcome. First, please read the [Pull Request Guidelines](https://github.com/eddiesigner/liebling/wiki/Pull-Request-Guidelines) on the wiki.
-
-## Related
-
-* [Weiss Pro](https://blog.eduardogomez.io/weiss-pro-modern-and-clean-ghost-theme/) - Modern and beautiful Ghost theme ready to make your content shine ✨
-
-## License
-
-Copyright (c) 2019-2020 Eduardo Gómez. Released under the [MIT license](https://github.com/eddiesigner/liebling/blob/master/LICENSE).
-
-## Credits
-
-All the photos I used in this theme were taken from [Unsplash](https://unsplash.com)
+![](https://res.cloudinary.com/edev/image/upload/v1583792928/liebling/liebling-promo-desktop.jpg)
+<br><br>
+![](https://res.cloudinary.com/edev/image/upload/v1570370297/liebling/liebling-promo-mobile.jpg)
