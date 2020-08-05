@@ -9,13 +9,13 @@ for it, and apply those styles to the <header> tag.
     .m-hero__picture {
       background-image: url({{img_url background size='xl'}});
     }
-  
+
     @media(max-width: 1000px) {
       .m-hero__picture {
         background-image: url({{img_url background size='l'}});
       }
     }
-  
+
     @media(max-width: 600px) {
       .m-hero__picture {
         background-image: url({{img_url background size='m'}});
@@ -25,7 +25,7 @@ for it, and apply those styles to the <header> tag.
   {{/contentFor}}
 
   <section class="m-hero with-picture" data-aos="fade">
-    <div class="m-hero__picture {{#is "post"}}in-post{{/is}}"></div>
+    <div class="m-hero__picture"></div>
 {{else}}
   <section class="m-hero no-picture {{#is "post"}}in-post{{/is}}" data-aos="fade">
 {{/if}}
