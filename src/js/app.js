@@ -39,7 +39,9 @@ $(document).ready(() => {
   const $searchNoResults = $('.js-no-results')
   const $toggleDarkMode = $('.js-toggle-darkmode')
   const $closeNotification = $('.js-notification-close')
-  const currentSavedTheme = localStorage.getItem('theme')
+  // const currentSavedTheme = localStorage.getItem('theme')
+  const currentSavedTheme = 'light'
+
 
   let fuse = null
   let submenuIsOpen = false
