@@ -9,6 +9,9 @@ Then, run the follwing commands to clear cache :
 ```sh
 heroku plugins:install heroku-repo
 heroku repo:purge_cache -a appname
+
+git commit --allow-empty -m "Purge cache"
+git push
 ```
 
 ## Features
